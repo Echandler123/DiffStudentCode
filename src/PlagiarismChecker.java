@@ -3,7 +3,7 @@
  * A tool for finding the longest shared substring between two documents.
  *
  * @author Zach Blick
- * @author YOUR NAME HERE
+ * @author Elijah Chandler
  */
 public class PlagiarismChecker {
 
@@ -15,9 +15,16 @@ public class PlagiarismChecker {
      * @return The length of the longest shared substring.
      */
     public static int longestSharedSubstring(String doc1, String doc2) {
+        String currentLongest = "";
+        String [][] arr = new String[doc1.length()][doc2.length()];
+        int longest = 0;
+        for(int i =0; i < doc1.length(); i++) {
+            for(int j =0; j < doc2.length();j++ ) {
+                if(doc1.charAt(i) == doc1.charAt(j)) {
 
-        // TODO Complete this function to return the length of the longest shared substring.
-
+                }
+            }
+        }
         return 0;
     }
 }
